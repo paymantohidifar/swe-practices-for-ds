@@ -1,3 +1,4 @@
+# Conda environment configuration for "Software Engineering for Data Scientists" book by Catherine Nelson
 name: se_for_ds
 channels:
   - conda-forge
