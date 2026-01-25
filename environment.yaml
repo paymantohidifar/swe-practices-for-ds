@@ -1,0 +1,34 @@
+name: se_for_ds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - pip
+  - pip:
+    - black==25.9.0
+    - dask==2025.3.0
+    - faker==23.2.1
+    - fastapi==0.118.0
+    - line-profiler==4.1.2
+    - matplotlib==3.10.7
+    - memray==1.11.0
+    - numpy==1.26.4
+    - openpyxl==3.1.2
+    - pandas==2.3.3
+    - pandera==0.26.1
+    - pydantic==2.12.0
+    - pytest==8.4.2
+    - requests==2.32.4
+    - scikit-learn==1.7.2
+    - scipy==1.13.1
+    - snakeviz==2.2.2
+    - uvicorn==0.27.1
+  
+# Usage:
+# To create the environment, run:
+# conda env create -f environment.yaml
+# Register the kernel for Jupyter/IPython
+# conda activate se_for_ds
+# python -m ipykernel install --user --name=se_for_ds --display-name "Python 3.10 (se_for_ds)"
